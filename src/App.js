@@ -1,12 +1,13 @@
 import './App.css';
-import LoginForm from './components/LoginForm';
-import ToggleSignInSignUp from './components/ToggleSignInSignUp';
+import CheckboxDelete from './components/CheckboxDelete';
+// import TodoList from './components/TodoList';
+import TodoList2 from './components/TodoList2';
 
 function App() {
   return (
     <div className="App">
-      {/* <LoginForm /> */}
-      <ToggleSignInSignUp/>
+      {/* <CheckboxDelete/> */}
+      <TodoList2/>
     </div>
   );
 }
